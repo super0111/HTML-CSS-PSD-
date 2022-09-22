@@ -1,0 +1,511 @@
+body {
+  background: #fafcff;
+}
+
+.navbar2 {
+  display: none;
+}
+.headerSection {
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/******** Header **********/
+header {
+  padding: 35px 0;
+}
+header .navbar-toggler {
+  display: none;
+}
+header .navbar-toggler i {
+  color: white;
+}
+header .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 14px !important;
+}
+header .logo {
+  width: 180px;
+  height: 40px;
+}
+header .navbar li {
+  margin: 0 15px;
+}
+header .phone_btn {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 13px;
+  color: white;
+}
+header .contact_btn {
+  background-color: #f5a200;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  padding: 8px 25px 8px 25px;
+}
+header .lang_btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+header .lang_divider {
+  border-left: 2px solid white;
+  height: 10px;
+}
+/********* headerBody ************/
+.headerBody {
+  padding: 10px 90px 200px 90px;
+}
+.headerBody .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-top: 95px;
+}
+.headerBody .text {
+  font-size: 14px;
+  color: white;
+  max-width: 61%;
+  margin-top: 20px;
+}
+.headerBody button {
+  background: #f5a200;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  margin: 40px 0
+}
+.headerBody img {
+  width: 100%;
+}
+
+/*********** Nuestro **********/
+.nuestro {
+  
+}
+.nuestro .nuestro_title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #330268;
+  text-align: center;
+  margin: 20px 0;
+}
+.nuestro .body {
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+.nuestro .global_logo {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nuestro .global_logo img {
+  width: 45%;
+}
+.nuestro .item1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+}
+.nuestro .item2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px; 
+}
+.nuestro .item3 {
+  width: 50%;
+  margin: auto;
+  margin-top: 130px;
+  margin-left: 180px;
+}
+.nuestro .item4 {
+  width: 50%;
+  margin: auto;
+  margin-top: 95px;
+  margin-left: 170px;
+}
+.nuestro .symbol {
+  width: 38px;
+  height: 38px;
+  margin: auto;
+}
+.nuestro .body .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2a3c;
+  text-align: center;
+  margin: 10px 0;
+}
+.nuestro .body .text {
+  font-size: 13px;
+  text-align: center;
+}
+.nuestro .todo {
+  width: 45%;
+  margin: auto;
+  padding: 12px;
+  box-shadow: 12px 9px 27px #dbc1eb;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.nuestro .todo .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2a3c;
+  margin: 0 0 15px 10px;
+}
+.nuestro .todo li {
+  font-size: 13px;
+  font-weight: 500;
+}
+.nuestro .modelo_title {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #501591;
+  margin-bottom: 20px;
+}
+.nuestro .modelo_body {
+  background: white;
+  width: 50%;
+  margin: auto;
+  box-shadow: 12px 9px 27px #dbc1eb;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.nuestro .modelo_body .title {
+  padding: 15px;
+  background: linear-gradient(45deg, #a959d2, #f19802);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.nuestro .modelo_body .text {
+  font-size: 13px;
+  max-width: 80%;
+  margin: auto;
+  font-weight: 600;
+  padding: 18px 0 5px 0;
+}
+.nuestro .modelo_body .text span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #a925ce;
+}
+.nuestro .modelo_body .divider {
+  border-bottom: 1px solid #e4bbed;
+  width: 100%;
+}
+
+
+
+
+/******** como *********/
+.como {
+  position: relative; 
+  margin-top: -90px; 
+  z-index: -1
+}
+.como .como_bg {
+  width: 100%;
+}
+.como .body {
+  position: absolute;
+}
+
+/******** enfoque **********/
+.enfoque {
+  width: 45%;
+  margin: auto;
+  padding: 12px;
+  box-shadow: 12px 9px 27px #dbc1eb;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.enfoque .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2a3c;
+  margin: 0 0 15px 10px;
+}
+.enfoque li {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+
+
+
+.yellow_point::marker {
+  color: #f29649;
+}
+.red_point::marker {
+  color: #ef579c;
+}
+.purple_point::marker {
+  color: #8d4cd7;
+}
+
+
+
+.nuestro .item44_field {
+  display: none;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .headerBody .title {
+    margin-top: 75px;
+  }
+  .nuestro .global_logo {
+    top: 55px;
+  }
+  .nuestro .global_logo img {
+    width: 50%;
+    margin-left: 80px;
+  }
+  .nuestro .item1,
+  .nuestro .item2,
+  .nuestro .item3,
+  .nuestro .item4 {
+    width: 55%;
+  }
+  .nuestro .item3 {
+    margin-left: 140px;
+  }
+  .nuestro .item4 {
+    width: 50%;
+    margin-left: 150px;
+  }
+  .nuestro .todo {
+    width: 50%;
+  }
+  .enfoque {
+    width: 50%;
+  }
+  .nuestro .modelo_body {
+    width: 65%;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  header .navbar li {
+    margin: 0;
+  }
+  header .contact_btn {
+    padding: 7px 12px 8px 12px;
+  }
+  .headerBody .title {
+    margin-top: 10px;
+  }
+  .nuestro .body {
+    width: 100%;
+  }
+  .nuestro .global_logo {
+    top: 65px;
+  }
+  .nuestro .global_logo img {
+    width: 45%;
+    margin-left: 60px;
+  }
+  .nuestro .todo {
+    width: 60%;
+  }
+  .enfoque {
+    width: 60%;
+  }
+  .nuestro .modelo_body {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    margin-bottom: -15px;
+  }
+  header .navbar li {
+    margin: 0 0;
+  }
+  header .navbar-toggler {
+    display: block;
+  }
+  header .contact_btn, 
+  header .phone_btn,  
+  header .lang_field {
+    display: none !important;
+  }
+  .headerBody {
+    padding: 10px 35px 130px 30px;
+  }
+  .headerBody .text {
+    font-size: 14px;
+    color: white;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  .headerBody button {
+    margin: 15px 0;
+  }
+
+  .nuestro .item1,
+  .nuestro .item2,
+  .nuestro .item3,
+  .nuestro .item4 {
+    width: 80%;
+  }
+  .nuestro .item3 {
+    margin-left: 60px;
+  }
+  .nuestro .item4 {
+    margin-left: 29px;
+    margin-top: 65px;
+  }
+  .nuestro .global_logo {
+    top: 110px;
+  }
+  .nuestro .global_logo img {
+    width: 45%;
+    margin-left: -10px;
+  }
+  .nuestro .todo {
+    width: 80%;
+  }
+  .enfoque {
+    width: 80%;
+  }
+  .nuestro .modelo_body {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerSection {
+    background-image: url('../images/header_bg_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerBody {
+    padding: 10px 35px 30px 30px;
+  }
+  .headerBody img {
+    margin-top: 20px;
+  }
+  .nuestro .item_field {
+    display: flex;
+    justify-content: end;
+  }
+  .nuestro .item1 {
+    margin: initial;
+    margin-top: 50px;  
+  }
+  .nuestro .item3 {
+    margin: initial;
+    margin-top: 65px;
+  }
+  .nuestro .item2,
+  .nuestro .item4 {
+    margin: initial;
+  }
+  .nuestro .item2 img,
+  .nuestro .item4 img {
+    margin-bottom: 0px !important;
+  }
+  .nuestro .global_logo {
+    top: 120px;
+    width: 100% !important;
+  }
+  .nuestro .global_logo img {
+    width: 55%;
+    margin-left: -20px;
+  }
+  .nuestro .todo {
+    width: 90%;
+  }
+  .enfoque {
+    width: 90%;
+  }
+  .nuestro .modelo_body {
+    width: 100%;
+  }
+  .row>* {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 576px) { 
+  .headerBody {
+    padding: 10px 16px 30px 16px;
+  }
+}
+@media screen and (max-width: 500px) { 
+  .nuestro .global_logo {
+    top: 175px;
+  }
+  .nuestro .nuestro_title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .row>* {
+    width: 100% !important;
+  }
+  .nuestro .global_logo {
+    position: initial;
+    margin-bottom: 20px;
+  }
+  .nuestro .global_logo img {
+    width: 80%;
+    margin-left: 0px;
+  }
+  .nuestro .item1 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .nuestro .item2 {
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+  .nuestro .item3 {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .nuestro .item4 {
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+  .nuestro .item4_field {
+    display: none;
+  }
+  .nuestro .item44_field {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerBody .title {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+}
