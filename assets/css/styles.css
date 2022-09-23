@@ -47,7 +47,7 @@ header .contact_btn {
   color: white;
   padding: 8px 25px 8px 25px;
 }
-header .lang_btn {
+header .lang_btn  {
   background: none;
   border: none;
   outline: none;
@@ -174,7 +174,7 @@ header .lang_divider {
   font-weight: 500;
 }
 .nuestro .modelo_title {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   color: #501591;
@@ -187,6 +187,8 @@ header .lang_divider {
   box-shadow: 12px 9px 27px #dbc1eb;
   border-radius: 20px;
   margin-top: 10px;
+  position: relative;
+  z-index: 999;
 }
 .nuestro .modelo_body .title {
   padding: 15px;
@@ -216,20 +218,143 @@ header .lang_divider {
 }
 
 
-
-
 /******** como *********/
 .como {
   position: relative; 
   margin-top: -90px; 
-  z-index: -1
+  /* z-index: -1; */
 }
 .como .como_bg {
   width: 100%;
+  height: 555px;
+}
+.como .como_bg_mobile {
+  display: none;
 }
 .como .body {
+  width: 100%;
   position: absolute;
+  top: 33%;
 }
+.como .body .como_title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #330268;
+  text-align: center;
+}
+.como .body .como_text {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  margin: 5px 0;
+}
+.como .item_body {
+  width: 58%;
+  background: #8d4cd7;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 35px;
+}
+.como .item_body_mobile {
+  position: relative;
+  display: none !important;
+}
+.como .item_body_mobile .select_item_body {
+  width: 100%;
+  height: 245px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #8848d5;
+  z-index: 1000;
+  border-radius: 20px;
+}
+.como .item_body_mobile .select_item_body .right .text {
+  text-align: left;
+}
+.como .item_body_mobile .left .text_field {
+  width: 100%;
+  font-size: 16px;
+  color: #8d4dd8;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 3px 0;
+}
+.como .item_body_mobile .left .text_field i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.como .item_body_mobile .right {
+  padding: 20px 30px;
+}
+.como .item_body_mobile .right img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.como .item_body img {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+.como .item_divider {
+  border-bottom: 1px solid #d0baed;
+}
+.como .item_body .left {
+  width: 45%;
+  background: white;
+  border-radius: 20px;
+  box-shadow: -1px 13px 11px 0px #dcc7ff;
+}
+.como .item_body .right {
+  width: 100%;
+  padding: 30px 40px;
+}
+.como .item_body .left .text {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.como .sections_container {
+  width: 100%;
+}
+.como .select_margin {
+  margin: 1px 0;
+}
+
+
+.active_item {
+  position: relative;
+}
+.active_item .piece_field {
+  position: absolute;
+  right: -8px;
+  top: 23px;
+}
+.active_item .piece_field1 {
+  position: absolute;
+  right: -8px;
+  top: 13px;
+}
+.active_item .piece{
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 15px solid white;
+  rotate: 130deg;
+}
+.display_hidden {
+  display: none;
+}
+
+
 
 /******** enfoque **********/
 .enfoque {
@@ -240,6 +365,9 @@ header .lang_divider {
   border-radius: 20px;
   margin-top: 45px;
   margin-bottom: 45px;
+  position: relative;
+  z-index: 999;
+  background-color: white;
 }
 .enfoque .title {
   font-size: 16px;
@@ -252,10 +380,264 @@ header .lang_divider {
   font-weight: 500;
 }
 
+/********** Fases **********/
+.fases {
+  width: 58%;
+  margin: auto;
+  padding: 30px 0 60px 0;
+}
+.fases_title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #501591;
+  margin-bottom: 30px;
+}
+.fases .divider {
+  border-bottom: 2px solid #8d4cd7;
+  width: 25px;
+  margin: auto;
+  position: absolute;
+  right: -28px;
+  top: 50%;
+  z-index: 1;
+}
+.fases .item {
+  width: 98%;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+  z-index: 1000;
+}
+.fases .item_header {
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.fases .item_body {
+  padding: 16px 12px;
+}
+.fases .item_body .title {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.fases .item_body .min_title {
+  font-size: 13.5px;
+  text-align: center;
+  margin-top: -4px;
+}
+.fases .item_body img {
+  width: 7px;
+  margin-right: 7px;
+}
+.fases .item_body .text {
+  font-size: 12px;
+}
+
+/********** Haz ***********/
+.haz {
+  background: linear-gradient(45deg, #9d54d5, #e173cc);
+  padding: 35px;
+}
+.haz_title {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.haz a {
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 30px;
+  background: #f5a200;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/********** Sectores ***********/
+.sectores {
+  padding: 45px 0;
+}
+.sectores .sectores_title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #330268;
+  text-align: center;
+}
+.sectores .sectores_text {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin: 7px;
+}
+.sectores .sectores_field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sectores .sectores_field .item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+.sectores .sectores_field .item_field img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  left: -6px;
+}
+.sectores .sectores_field .text {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.sectores .certificaciones_title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #5c14ac;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.sectores .certificaciones_field {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.sectores .certificaciones_field .bing {
+  width: 80px;
+  height: 55px;
+}
+.sectores .certificaciones_field .meta {
+  width: 130px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sectores .certificaciones_field .google {
+  width: 110px;
+  height: 55px;
+}
+
+/*********** Footer ************/
+footer {
+  background-image: url("../images/Footer_BG.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 70px 0 0 0;
+}
+footer .top_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f5a200;
+  text-align: center;
+}
+footer .footer_title {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 15px 0;
+}
+footer .contact_field {
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+}
+footer .contact_field .item {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+}
+footer .contact_field .item1 {
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+}
+footer .contact_field .item1 a{
+  color: #fe8a06;
+  font-weight: 600;
+}
+footer .contact_field input {
+  background: none;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid silver;
+  color: white;
+  font-size: 15px;
+  width: 90%;
+  margin: 5px 0;
+}
+footer .contact_field input::placeholder {
+  font-size: 13px;
+  color: white;
+}
+footer .contact_field .text {
+  font-size: 12px;
+  color: white;
+}
+footer .contact_field button {
+  background: #f5a200;
+  font-size: 12px;
+  color: white;
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.footer img {
+  width: 160px;
+  margin: 30px 0;
+}
+.footer a {
+  text-decoration: underline;
+  font-size: 13px;
+  color: #ffeee0;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.purple_bg {
+  background: #8d4cd7;
+}
+.pink_bg {
+  background: #e374cc;
+}
+.yellow_bg {
+  background: #f29b00;
+}
 .yellow_point::marker {
   color: #f29649;
 }
@@ -265,9 +647,6 @@ header .lang_divider {
 .purple_point::marker {
   color: #8d4cd7;
 }
-
-
-
 .nuestro .item44_field {
   display: none;
 }
@@ -300,11 +679,17 @@ header .lang_divider {
   .nuestro .todo {
     width: 50%;
   }
+  .como .item_body {
+    width: 70%;
+  }
   .enfoque {
     width: 50%;
   }
   .nuestro .modelo_body {
     width: 65%;
+  }
+  .fases {
+    width: 70%;
   }
 
 }
@@ -332,15 +717,73 @@ header .lang_divider {
   .nuestro .todo {
     width: 60%;
   }
+  .como .item_body {
+    width: 82%;
+  }
   .enfoque {
     width: 60%;
   }
   .nuestro .modelo_body {
     width: 75%;
   }
+  .fases {
+    width: 82%;
+  }
+  .sectores .sectores_field {
+    width: 95%;
+  }
+  .sectores .certificaciones_field {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .navbar1 {
+    display: none;
+  }
+  .navbar2 {
+    display: block;
+    box-shadow: 3px 17px 18px -14px #313131;
+    background: #8d4dd8;
+  }
+  header .navbar-nav .nav-link {
+    text-align: center;
+  }
+  header .phone_btn1 {
+    margin: auto;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: white;
+  }
+  header .contact_btn1 {
+    margin: auto;
+    background-color: #f5a200;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding: 4px 25px 4px 25px;
+    width: 120px;
+    margin-top: 20px
+  }
+  header .lang_field1 {
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+  header .lang_btn1  {
+    display: flex;
+    margin: auto;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
+
   header {
     margin-bottom: -15px;
   }
@@ -354,6 +797,10 @@ header .lang_divider {
   header .phone_btn,  
   header .lang_field {
     display: none !important;
+  }
+  header .contact_btn1, 
+  header .phone_btn1 {
+    display: block !important;
   }
   .headerBody {
     padding: 10px 35px 130px 30px;
@@ -391,11 +838,42 @@ header .lang_divider {
   .nuestro .todo {
     width: 80%;
   }
+  .como .item_body {
+    width: 100%;
+  }
   .enfoque {
     width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .nuestro .modelo_body {
     width: 95%;
+  }
+  .fases {
+    width: 100%;
+  }
+  .fases .item {
+    height: 310px;
+  }
+  .sectores .sectores_field {
+    width: 100%;
+  }
+  .sectores .certificaciones_field {
+    width: 80%;
+  }
+  footer .contact_field {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .nuestro .global_logo {
+    top: 120px;
+    width: 100% !important;
+  }
+  .nuestro .global_logo img {
+    width: 43% !important;
+    margin-left: -20px;
   }
 }
 
@@ -436,13 +914,10 @@ header .lang_divider {
     width: 100% !important;
   }
   .nuestro .global_logo img {
-    width: 55%;
+    width: 55% !important;
     margin-left: -20px;
   }
   .nuestro .todo {
-    width: 90%;
-  }
-  .enfoque {
     width: 90%;
   }
   .nuestro .modelo_body {
@@ -451,18 +926,81 @@ header .lang_divider {
   .row>* {
     width: 50% !important;
   }
+  .fases .divider {
+    display: none;
+  }
+  .fases .mobile_item {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fases .mobile_item1 {
+    width: 47%;
+    margin: auto;
+  }
+
+  .como .como_bg {
+    display: none;
+  }
+  .como .body {
+    width: 100%;
+    position: absolute;
+    top: 18%;
+  }
+  .como .como_bg_mobile {
+    display: block;
+    width: 100%;
+    height: 750px;
+  }
+  .como .body .como_text {
+    margin: 5px 0 20px 0;
+  }
+  .enfoque {
+    width: 90%;
+    margin-top: -150px;
+  }
+  .como .item_body {
+    display: none !important;
+  }
+  .como .item_body_mobile {
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 576px) { 
   .headerBody {
     padding: 10px 16px 30px 16px;
   }
+  .sectores .sectores_field {
+    flex-wrap: wrap;
+  }
+  .sectores .sectores_field .item_field {
+    width: 33%;
+    margin: 10px 0;
+  }
+  .sectores .certificaciones_field .bing {
+    width: 65px;
+    height: 40px;
+  }
+  .sectores .certificaciones_field .meta {
+    width: 90px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .sectores .certificaciones_field .google {
+    width: 80px;
+    height: 40px;
+  }
 }
+
 @media screen and (max-width: 500px) { 
   .nuestro .global_logo {
     top: 175px;
   }
-  .nuestro .nuestro_title {
+  .nuestro .nuestro_title,
+  .nuestro .modelo_title,
+  .como .body .como_title,
+  .fases_title,
+  .sectores .sectores_title {
     font-size: 25px;
   }
 }
@@ -501,6 +1039,42 @@ header .lang_divider {
   .nuestro .item44_field {
     display: block;
   }
+  .fases .item {
+    width: 58%;
+    height: 300px;
+    margin: auto;
+  }
+  .margin-top {
+    margin-top: 30px !important;
+  }
+  footer {
+    background-image: url("../images/footer_bg_mobile1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 0 0 0;
+    height: 780px;
+  }
+  footer .contact_field .text {
+    text-align: center;
+  }
+  footer .contact_field .item {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  footer .contact_field .item {
+    width: 100%;
+  }
+  footer .contact_field .item1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .fases .item {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -508,4 +1082,66 @@ header .lang_divider {
     font-size: 30px;
     margin-top: 0px;
   }
+  .sectores .certificaciones_field {
+    width: 90%;
+  }
 }
+
+@media screen and (max-width: 380px) {
+  .fases .item {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+  }
+  .haz {
+    padding: 35px 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+  width:70%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
